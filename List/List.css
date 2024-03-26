@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#list-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#list li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #list li {
+    font-size: 14px;
+  }
+}
